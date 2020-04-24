@@ -80,9 +80,7 @@ class _HomeState extends State<Home> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                    builder: (context) => AddItem(),
-                  ),
+                  MaterialPageRoute(builder: (context) => AddItem()),
                 );
               },
             ),
